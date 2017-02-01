@@ -1,18 +1,24 @@
-keywords:  # site default keywords
-logo:  # logo url
-back_to_top: true
-avatar: /avatar.jpg
+# ---------------------------------------------------------------
+# Site Information Settings
+# ---------------------------------------------------------------
 
+keywords:     # site default keywords
+logo:         # logo url
+back_to_top: true  # back to top button
+avatar:       # avatar url, the default is an spy icon.
+
+
+# Site menu.
+# Be aware that this theme doesn't implement categories, archives, sitemap page.
 menu:
   home: /
-  # archives: /archives 
-  # categories: /categories
   tags: /tags
   about: /about
-  #sitemap: /sitemap.xml
-  #commonweal: /404.html
+  # categories: /categories
+  # archives: /archives 
+  # sitemap: /sitemap.xml
 
-
+# Corresponding to menu.
 menu_icons:
   home: home
   about: spy
@@ -21,7 +27,6 @@ menu_icons:
   tags: tags
   archives: archive
   sitemap: sitemap
-  commonweal: heartbeat
 
 
 # Post meta display settings
@@ -38,6 +43,7 @@ auto_excerpt:
   length: 750
 
 
+# Tag cloud options
 tag_cloud:
   min_font: 16
   max_font: 30
@@ -45,15 +51,18 @@ tag_cloud:
   end_color: '#000'
 
 
+# Social links
+# Key is the link label showing to end users, value is the target link.
 social:
-  github: https://github.com/Yuvv
-  weibo: http://weibo.com/u/3147725543
-  # wechat: '#'
-  # qq: '#'
-  mail: mailto:yuvv_th@outlook.com
-  twitter: https://twitter.com/yuvv_th
-  # facebook:
+  github: '#' # https://github.com/<your name>
+  weibo:  '#' # http://weibo.com/u/<your name>
+  # wechat: 
+  # qq: 
+  mail: '#' # mailto:<your email address>
+  twitter: '#' # https://twitter.com/<your name>
+  # facebook: # https://www.facebook.com/<your name>
 
+# Corresponding to social.
 social_icons:
   github: github
   weibo: weibo
@@ -71,16 +80,20 @@ social_icons:
 highlight_theme: night eighties
 
 
-# Carnival
+# Carnival comments plugin. 
+# Change enabled value to true and fill site_id to ues this comments plugin.
+# See more information at https://carnivalapp.io/
 carnival:
-  enabled: true
-  site_id: 623
+  enabled: false
+  site_id: # your site id allocated by carnival. 
   # article_author: ''
   # article_selector: "article"
   # block_selector: ":scope > p, :scope > pre"
   # onNewComment:
 
 
+# Statics files links.
+# jquery & semantic_ui is necessary, katex is optional if you don't need to render LaTex formula.
 statics:
   jquery: //cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js
   semantic_ui:
