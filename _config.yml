@@ -1,0 +1,90 @@
+keywords:  # site default keywords
+logo:  # logo url
+back_to_top: true
+avatar: /avatar.jpg
+
+menu:
+  home: /
+  # archives: /archives 
+  # categories: /categories
+  tags: /tags
+  about: /about
+  #sitemap: /sitemap.xml
+  #commonweal: /404.html
+
+
+menu_icons:
+  home: home
+  about: spy
+  categories: grid layout
+  schedule: calendar
+  tags: tags
+  archives: archive
+  sitemap: sitemap
+  commonweal: heartbeat
+
+
+# Post meta display settings
+post_meta:
+  created_at: true
+  updated_at: false
+  categories: false
+
+
+# Automatically Excerpt. Not recommand.
+# Please use <!-- more --> in the post to control excerpt accurately.
+auto_excerpt:
+  enabled: true
+  length: 750
+
+
+tag_cloud:
+  min_font: 16
+  max_font: 30
+  start_color: '#888'
+  end_color: '#000'
+
+
+social:
+  github: https://github.com/Yuvv
+  weibo: http://weibo.com/u/3147725543
+  # wechat: '#'
+  # qq: '#'
+  mail: mailto:yuvv_th@outlook.com
+  twitter: https://twitter.com/yuvv_th
+  # facebook:
+
+social_icons:
+  github: github
+  weibo: weibo
+  wechat: wechat
+  qq: qq
+  mail: mail
+  twitter: twitter
+  facebook: facebook
+
+
+# Code Highlight theme
+# Available value:
+#    normal | night | night eighties | night blue | night bright
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: night eighties
+
+
+# Carnival
+carnival:
+  enabled: true
+  site_id: 623
+  # article_author: ''
+  # article_selector: "article"
+  # block_selector: ":scope > p, :scope > pre"
+  # onNewComment:
+
+
+statics:
+  jquery: //cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js
+  semantic_ui:
+    css: //cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.css
+    js: //cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.2.7/semantic.min.js
+  katex:
+    css: //cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css
