@@ -5,8 +5,7 @@
 keywords:     # site default keywords
 logo:         # logo url
 back_to_top: true  # back to top button
-avatar:       # avatar url, the default is an icon.
-avatar: /avatar.jpg # avatar url, the default is an spy icon.
+avatar:       # avatar url, the default is an spy icon.
 
 
 # Site menu.

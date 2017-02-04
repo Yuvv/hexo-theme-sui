@@ -1,40 +1,27 @@
-[中文详细说明点这里](http://yuche.me/introducing-kael-customization/)
-
-↑↑↑↑↑↑↑↑↑↑↑↑↑↑
+[中文文档](https://yuvv.github.io/2017/02/04/hexo-theme-sui-docs/)
 
 ## WARNING
 The code is full of shit.
 
-## Feature
+## SUI
+It is a simple theme based on [Semantic Ui](http://semantic-ui.com/).
 
- - Multi Level Push Menu 
- - Archive/Tags/Categoies Instant Search
- - Pjax with Progress Bar
- - Inline Comment just like [Medium](http://medium.com/)
- - Scroll Spy
-
-## Browser Support
-
- - Internet Explorer 9 +
- - Google Chrome 26 +
- - Firefox 6 +
- - Opera 20 +
- - Safari 5 +
-
- 
-## Preview
-![kael-preview][1]
- 
 ## Installation
 
 ### Install
 
-$ git clone git@github.com:yuche/hexo-theme-kael.git themes/kael
-
+1. Clone this theme into your themes folder.
+```shell
+$ git clone git@github.com:yuvv/hexo-theme-sui.git themes/sui
+```
+2. Clone theme plugins into your scripts folder. Go to [here](https://github.com/Yuvv/hexo-theme-sui-plugin) for details.
+```shell
+$ git clone git@github.com:yuvv/hexo-theme-sui-plugin.git scripts/
+```
 ### Enable
 
-Modify theme setting in blog folder `_config.yml` to `kael`.
+Modify theme setting in blog folder `_config.yml` to `sui`.
 
+### LICENSE
 
-
-  [1]: http://ww1.sinaimg.cn/large/650625begw1egigcsgddcg20z60iue81.gif
+[MIT License](license)

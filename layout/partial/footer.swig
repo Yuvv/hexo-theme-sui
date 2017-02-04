@@ -9,6 +9,7 @@
   {% endfor %}
   </div>
   <p>Powered by <a href="https://hexo.io">Hexo</a>.&nbsp;
+  Theme by <a title="SUI" target="_blank" href="https://github.com/Yuvv/hexo-theme-sui">SUI</a>.&nbsp;
   Copyright &copy; {{ date(Date.now(), "YYYY")}} &nbsp; <i class="heartbeat icon"></i> {{ config.author }}</p>
 </div>
 </div>
